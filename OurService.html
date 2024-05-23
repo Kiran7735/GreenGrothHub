@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Green Growth Hub - Services</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        .container {
+            width: 90%;
+            margin: auto;
+            overflow: hidden;
+            padding: 20px 0;
+        }
+        #services {
+            text-align: center;
+            min-height: 100vh;
+            width: 100dvw;
+            background-image: url(../Project2/img/forest.jpg);
+            background-position: center;
+            background-size: cover;
+
+        }
+        #services h1 {
+            margin-bottom: 40px;
+            font-size: 2.5em;
+            color: #333;
+            text-align: left;
+        }
+        .service {
+            display: flex;
+            background: #f9f9f9;
+            margin: 20px 0;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+            overflow: hidden;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .service img {
+            width: 50%;
+            height: auto;
+        }
+        .service-content {
+            padding: 20px;
+            flex: 1;
+        }
+        .service-content h1 {
+            margin-top: 0;
+            color: #333;
+        }
+        .service-content p {
+            color: #666;
+            line-height: 1.6;
+        }
+        .service-content strong {
+            color: #333;
+        }
+        .service.reverse {
+            flex-direction: row-reverse;
+        }
+        @media (max-width: 768px) {
+            .service {
+                flex-direction: column;
+            }
+            .service.reverse {
+                flex-direction: column;
+            }
+            .service img {
+                width: 100%;
+            }
+            .service-content {
+                padding: 10px;
+            }
+        }
+
+        .primary-btn{
+         left:50%;    
+         background-color: rgb(4, 106, 4);
+         color: white;
+         border: none;
+         cursor: pointer;
+         transition: all 0.3s ease;
+        }  
+    </style>
+
+<link rel="icon" href="../Project2/img/Green Growth Hub.png">
+</head>
+<body>
+    <section id="services" class="container">
+        <h1>Our Services</h1>
+        <div class="service">
+            <img src="./img/output_image.jpeg" alt="Tree Planting Services">
+            <div class="service-content">
+                <h1>Tree Planting Services</h1>
+                <p>At <strong>Green Growth Hub</strong>, we are dedicated to transforming our world one tree at a time. Our comprehensive Tree Planting Services cater to individuals, businesses, and communities committed to making a tangible impact on the environment. From the initial consultation to the careful selection of native species, our expert team ensures every tree is planted with precision and care. We offer tailored planting plans that consider local ecological conditions, ensuring optimal growth and sustainability. Beyond planting, we provide ongoing maintenance services including watering, mulching, and pruning to support the healthy development of each tree.</p>
+            </div>
+        </div>
+
+        <div class="service reverse">
+            <img src="./img/treeDistributation.jpg" alt="Adopt-a-Tree Program">
+            <div class="service-content">
+                <h1>Adopt-a-Tree Program</h1>
+                <p>Join our Adopt-a-Tree Program and make a lasting impact on our planet! By adopting a tree, you contribute directly to reforestation efforts and help create a greener, healthier world. Each adoption includes personalized updates on your tree’s growth, a digital certificate, and the satisfaction of knowing you’re making a difference. Whether it’s in honor of a loved one or simply a gift to Mother Earth, your adopted tree stands as a living testament to your commitment to the environment. Together, let's plant the seeds of a sustainable future!</p>
+            </div>
+            
+        </div>
+
+        <div class="service">
+            <img src="./img/rally (1).jpg" alt="Environmental Education and Awareness">
+            <div class="service-content">
+                <h1>Environmental Education and Awareness</h1>
+                <p>At <strong>Green Growth Hub</strong>, we believe that knowledge is the first step towards meaningful action. Our Environmental Education and Awareness programs are designed to inspire and empower individuals and communities to make a positive impact on our planet. Through engaging workshops, interactive online resources, and collaborative school programs, we provide valuable insights into the importance of trees, biodiversity, and sustainable practices. Join us in learning how small actions can lead to a greener, healthier world for future generations.</p>
+            </div>
+        </div>
+        <a href="../Project2/index.html"><button>&#8629;HOME </button></a>     
+    </section>
+   
+</body>
+</html>
